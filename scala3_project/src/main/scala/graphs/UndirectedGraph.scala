@@ -1,4 +1,4 @@
-
+package graphs 
 
 case class UndirectedGraph[T](vertices: Set[T], edges: Set[(T, T)]) extends Graph[T] {
   def getVertices(): Set[T] = vertices

@@ -1,3 +1,7 @@
+package viz
+import graphs._
+
+
 object GraphImplicits {
   implicit class GraphViz[T](graph: Graph[T]) {
     def toDot: String = graph match {
