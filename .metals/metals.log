@@ -1,0 +1,328 @@
+2024.07.03 09:23:38 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3ded0a31]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3cafecc1]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3ded0a31]
+2024.07.03 09:23:39 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.03 09:23:44 INFO  running 'C:\Users\damie\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\damie\AppData\Local\Temp\metals16407732790615600952\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.07.03 09:23:46 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17)
+2024.07.03 09:23:49 INFO  [info] loading settings for project scala3_project-build-build from metals.sbt ...
+2024.07.03 09:23:49 INFO  [info] loading project definition from C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\project\project
+2024.07.03 09:23:52 INFO  [info] loading settings for project scala3_project-build from metals.sbt ...
+2024.07.03 09:23:52 INFO  [info] loading project definition from C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\project
+2024.07.03 09:23:55 INFO  [success] Generated .bloop\scala3_project-build.json
+2024.07.03 09:23:55 INFO  [success] Total time: 3 s, completed 3 juil. 2024, 09:23:55
+2024.07.03 09:23:56 INFO  [info] loading settings for project root from build.sbt ...
+2024.07.03 09:23:56 INFO  [info] set current project to scala3_project (in build file:/C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/)
+2024.07.03 09:23:56 INFO  [success] Generated .bloop\root.json
+2024.07.03 09:23:56 INFO  [success] Generated .bloop\root-test.json
+2024.07.03 09:23:56 INFO  [success] Total time: 1 s, completed 3 juil. 2024, 09:23:57
+2024.07.03 09:23:58 INFO  time: ran 'sbt bloopInstall' in 13s
+2024.07.03 09:23:58 INFO  Attempting to connect to the build server...
+2024.07.03 09:23:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\.metals\bsp.trace.json or C:\Users\damie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.03 09:23:58 INFO  time: Connected to build server in 0.19s
+2024.07.03 09:23:58 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.03 09:24:02 INFO  time: indexed workspace in 3.67s
+2024.07.03 09:26:38 INFO  compiling root (1 scala source)
+2024.07.03 09:26:41 INFO  time: code lens generation in 2.41s
+2024.07.03 09:26:42 INFO  time: compiled root in 3.98s
+2024.07.03 09:26:46 INFO  time: evaluated worksheet 'test.worksheet.sc' in 4.21s
+2024.07.03 09:26:46 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.83s
+2024.07.03 09:34:27 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.99s
+2024.07.03 09:34:51 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.62s
+2024.07.03 09:35:36 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.57s
+2024.07.03 09:35:39 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.46s
+2024.07.03 09:36:10 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.84s
+2024.07.03 09:36:16 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.59s
+2024.07.03 09:37:42 INFO  time: evaluated worksheet 'test.worksheet.sc' in 1.28s
+2024.07.03 09:37:59 INFO  compiling root-test (1 scala source)
+2024.07.03 09:38:02 INFO  time: compiled root-test in 2.69s
+2024.07.03 09:38:45 INFO  compiling root (1 scala source)
+2024.07.03 09:38:45 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/main/scala/Graph.scala
+2024.07.03 09:38:45 INFO  time: compiled root in 0.29s
+2024.07.03 09:38:46 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/main/scala/Graph.scala
+2024.07.03 09:38:53 INFO  compiling root (1 scala source)
+2024.07.03 09:38:55 INFO  time: compiled root in 1.67s
+2024.07.03 09:39:03 INFO  compiling root (1 scala source)
+2024.07.03 09:39:03 INFO  time: compiled root in 0.62s
+2024.07.03 09:39:55 INFO  compiling root-test (1 scala source)
+2024.07.03 09:39:55 INFO  time: compiled root-test in 0.17s
+2024.07.03 09:39:56 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/GraphSpec.scala
+2024.07.03 09:39:57 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/GraphSpec.scala
+2024.07.03 09:40:00 INFO  compiling root-test (1 scala source)
+2024.07.03 09:40:01 INFO  time: compiled root-test in 1.8s
+2024.07.03 09:40:27 INFO  compiling root-test (1 scala source)
+2024.07.03 09:40:28 INFO  time: compiled root-test in 1.04s
+2024.07.03 09:41:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+juil. 03, 2024 9:41:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 265
+juil. 03, 2024 9:41:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 266
+2024.07.03 09:41:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:39 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:39 INFO  time: code lens generation in 1.03s
+2024.07.03 09:41:39 INFO  time: code lens generation in 1.68s
+2024.07.03 09:41:39 INFO  time: code lens generation in 8.56s
+2024.07.03 09:41:41 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:41 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/build.sbt
+2024.07.03 09:41:42 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:41:44 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:04 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:08 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:08 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:12 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:12 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:12 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:14 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:15 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:15 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:16 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:15 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:16 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:17 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:21 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:21 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:21 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:21 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:22 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:23 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:24 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:25 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:28 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:28 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:28 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:28 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:30 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:31 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:31 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:32 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:32 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:32 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:32 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:33 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:34 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:36 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:36 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:37 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:41 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:42 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:43 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:43 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:42 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:44 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:47 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:46 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:49 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:49 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:49 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:50 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:50 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:50 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:50 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:51 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:51 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:52 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:57 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:57 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:57 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:58 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:58 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:58 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:42:59 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:02 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:02 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:02 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:07 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:07 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:07 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:07 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:07 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:08 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:08 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:08 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:09 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:11 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:12 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:12 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:13 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:13 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:13 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:13 WARN  no build target for: C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt
+2024.07.03 09:43:14 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:22 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:22 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:22 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:41 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:41 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:41 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:42 WARN  no build target for: C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt
+2024.07.03 09:43:42 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:43:45 INFO  running 'C:\Users\damie\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\damie\AppData\Local\Temp\metals2160482197869574513\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.07.03 09:43:47 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17)
+2024.07.03 09:43:47 INFO  [info] loading settings for project scala3_project-build-build from metals.sbt ...
+2024.07.03 09:43:49 INFO  [info] loading project definition from C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\project\project
+2024.07.03 09:43:50 INFO  [info] loading settings for project scala3_project-build from metals.sbt ...
+2024.07.03 09:43:50 INFO  [info] loading project definition from C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\project
+2024.07.03 09:43:54 INFO  [success] Generated .bloop\scala3_project-build.json
+2024.07.03 09:43:54 INFO  [success] Total time: 4 s, completed 3 juil. 2024, 09:43:54
+2024.07.03 09:43:57 INFO  [info] loading settings for project root from build.sbt ...
+2024.07.03 09:43:57 INFO  [info] set current project to scala3_project (in build file:/C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/)
+2024.07.03 09:44:40 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:44:42 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:45:01 INFO  [success] Generated .bloop\root.json
+2024.07.03 09:45:01 INFO  [success] Generated .bloop\root-test.json
+2024.07.03 09:45:01 INFO  [success] Total time: 64 s (01:04), completed 3 juil. 2024, 09:45:01
+2024.07.03 09:45:01 INFO  time: ran 'sbt bloopInstall' in 1m16s
+2024.07.03 09:45:01 INFO  Disconnecting from Bloop session...
+2024.07.03 09:45:01 INFO  Shut down connection with build server.
+2024.07.03 09:45:01 INFO  Attempting to connect to the build server...
+2024.07.03 09:45:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\.metals\bsp.trace.json or C:\Users\damie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.03 09:45:01 INFO  time: Connected to build server in 57ms
+2024.07.03 09:45:01 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.03 09:45:01 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 09:45:04 ERROR error processing file:///C:/Users/damie/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.15/scalatest-core_3-3.2.15-sources.jar
+org.h2.jdbc.JdbcBatchUpdateException: Violation d'index unique ou clé primaire: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.TOPLEVEL_SYMBOL(JAR, PATH, SYMBOL) VALUES ( /* key:3305 */ 9, '/org/scalatest/enablers/TableAsserting.scala', 'org/scalatest/enablers/ForResult#')"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.TOPLEVEL_SYMBOL(JAR, PATH, SYMBOL) VALUES ( /* key:3305 */ 9, '/org/scalatest/enablers/TableAsserting.scala', 'org/scalatest/enablers/ForResult#')"; SQL statement:
+insert into toplevel_symbol (symbol, path, jar) values (?, ?, ?) [23505-224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1282)
+	at scala.meta.internal.metals.JarTopLevels.putToplevels(JarTopLevels.scala:179)
+	at scala.meta.internal.metals.JarTopLevels.putJarIndexingInfo(JarTopLevels.scala:130)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:643)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:463)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:905)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:454)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:453)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:453)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20(Indexer.scala:372)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$19(Indexer.scala:365)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$19$adapted(Indexer.scala:361)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:361)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:164)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:164)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.03 09:45:04 INFO  time: indexed workspace in 2.7s
+2024.07.03 09:45:04 WARN  no build target for: C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt
+2024.07.03 09:45:18 INFO  compiling root-test (2 scala sources)
+2024.07.03 09:45:20 INFO  time: compiled root-test in 1.89s
+2024.07.03 09:45:20 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+juil. 03, 2024 9:45:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 615
+2024.07.03 09:45:45 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala
+2024.07.03 09:45:46 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala
+2024.07.03 09:45:48 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala
+2024.07.03 09:45:50 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala
+2024.07.03 09:45:56 INFO  compiling root-test (1 scala source)
+2024.07.03 09:46:01 WARN  Invalid text document uri received from build server: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala
+2024.07.03 09:46:01 INFO  time: compiled root-test in 5.29s
+2024.07.03 10:00:40 INFO  compiling root (1 scala source)
+2024.07.03 10:00:40 INFO  time: compiled root in 0.61s
+2024.07.03 10:00:47 INFO  compiling root (1 scala source)
+2024.07.03 10:00:47 INFO  time: compiled root in 0.34s
+2024.07.03 10:07:43 INFO  compiling root (1 scala source)
+2024.07.03 10:07:43 INFO  time: compiled root in 0.43s
+2024.07.03 10:11:19 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:12:46 INFO  compiling root (1 scala source)
+2024.07.03 10:12:46 INFO  time: compiled root in 0.33s
+2024.07.03 10:13:19 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:14:02 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:14:03 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:14:03 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:14:13 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:15:16 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:15:19 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.03 10:23:46 WARN  Could not find semantic tokens for: file:///C:/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/GraphSpec.scala
+juil. 03, 2024 10:24:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2024.07.03 10:24:13 INFO  no build target found for C:\Users\damie\OneDrive\Documents\GitHub\Projet-Functional-Programming\scala3_project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+juil. 03, 2024 10:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/c%3A/Users/damie/OneDrive/Documents/GitHub/Projet-Functional-Programming/scala3_project/src/test/scala/MySuite.scala?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cdamie%5C%5COneDrive%5C%5CDocuments%5C%5CGitHub%5C%5CProjet-Functional-Programming%5C%5Cscala3_project%5C%5Csrc%5C%5Ctest%5C%5Cscala%5C%5CMySuite.scala%22%2C%22ref%22%3A%22HEAD%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
