@@ -12,6 +12,8 @@ trait Graph[T] {
   def toDot: String
   def dfs(start: T): List[T]
   def bfs(start: T): List[T]
+  def hasCycle() : Boolean
+  def topologicalSort() : List[T]
 }
 
 trait WeightedGraphTrait[T, W] extends Graph[T] {

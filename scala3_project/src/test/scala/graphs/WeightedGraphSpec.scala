@@ -96,4 +96,18 @@ class WeightedGraphSpec extends AnyFlatSpec with Matchers {
     floydWarshallResult.toList.sorted shouldEqual expectedResult.toList.sorted
   }
 
+  it should "detect cycles correctly" in {
+    val graphWithCycle = WeightedGraph(Set(1, 2, 3, 4), Map((1, 2) -> 3, (2, 3) -> 1, (3, 1) -> 2, (3, 4) -> 4))
+    val graphWithoutCycle = WeightedGraph(Set(1, 2, 3, 4), Map((1, 2) -> 3, (2, 3) -> 1, (3, 4) -> 2))
+
+    graphWithCycle.hasCycle() shouldEqual true
+    graphWithoutCycle.hasCycle() shouldEqual false
+  }
+
+  it should "perform topological sort correctly" in {
+    val graph = WeightedGraph(Set(1, 2, 3, 4), Map((1, 2) -> 3, (1, 3) -> 4, (2, 4) -> 2))
+    val topoSortResult = graph.topologicalSort()
+    topoSortResult shouldEqual List(4, 2, 3, 1)
+  }
+
 }

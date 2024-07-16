@@ -14,6 +14,10 @@ object Main extends App {
   println(weightedGraphTest.dijkstra(1))
   println(weightedGraphTest.floydWarshall)
 
+  println(directedGraph.hasCycle())
+  println(directedGraph.topologicalSort())
+
+
   /*
 
   println("Directed Graph DOT representation:")

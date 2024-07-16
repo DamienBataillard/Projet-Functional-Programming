@@ -61,4 +61,18 @@ class UndirectedGraphSpec extends AnyFlatSpec with Matchers {
     decodedGraph should be (Right(UndirectedGraph(Set(1, 2, 3), Set((1, 2), (2, 3)))))
   }
 
+  it should "detect cycles correctly" in {
+    val graphWithCycle = UndirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (2, 3), (3, 1), (3, 4)))
+    val graphWithoutCycle = UndirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (2, 3), (3, 4)))
+
+    graphWithCycle.hasCycle() shouldEqual true
+    graphWithoutCycle.hasCycle() shouldEqual false
+  }
+
+  it should "perform topological sort correctly" in {
+    val graph = UndirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (1, 3), (2, 4)))
+    val topoSortResult = graph.topologicalSort()
+    topoSortResult shouldEqual List(4, 2, 3, 1)
+  }
+
 }

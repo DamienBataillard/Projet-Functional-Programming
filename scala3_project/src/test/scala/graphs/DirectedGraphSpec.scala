@@ -59,4 +59,18 @@ class DirectedGraphSpec extends AnyFlatSpec with Matchers {
     decodedGraph should be (Right(DirectedGraph(Set(1, 2, 3), Set((1, 2), (2, 3)))))
   }
 
+  it should "perform topological sort correctly" in {
+    val graph = DirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (1, 3), (3, 4)))
+    val topoSortResult = graph.topologicalSort()
+    topoSortResult shouldEqual List(2,4,3,1)
+  }
+
+  it should "detect cycles correctly" in {
+    val graphWithCycle = DirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (2, 3), (3, 4), (4, 2)))
+    val graphWithoutCycle = DirectedGraph(Set(1, 2, 3, 4), Set((1, 2), (2, 3), (3, 4)))
+
+    graphWithCycle.hasCycle() shouldEqual true
+    graphWithoutCycle.hasCycle() shouldEqual false
+  }
+
 }
