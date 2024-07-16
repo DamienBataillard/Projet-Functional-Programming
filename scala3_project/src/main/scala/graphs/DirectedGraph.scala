@@ -50,4 +50,5 @@ case class DirectedGraph[T](vertices: Set[T], edges: Set[(T, T)]) extends Graph[
     }
     bfsIterative(List(start), Set(start), List())
   }
+
 }

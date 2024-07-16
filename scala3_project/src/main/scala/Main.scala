@@ -11,6 +11,11 @@ object Main extends App {
   val undirectedGraph = UndirectedGraph(Set(1, 2, 3), Set((1, 2), (2, 3)))
   val weightedGraphTest = WeightedGraph(Set(1, 2, 3), Map((1, 2) -> 5, (2, 3) -> 10))
 
+  println(weightedGraphTest.dijkstra(1))
+  println(weightedGraphTest.floydWarshall)
+
+  /*
+
   println("Directed Graph DOT representation:")
   println(directedGraph.toDot)
 
@@ -50,5 +55,5 @@ object Main extends App {
   // Encode a WeightedGraph to JSON string
   val weightedGraph = WeightedGraph(Set(1, 2, 3, 4), Map((1, 2) -> 5.0, (1, 3) -> 2.5, (2, 4) -> 7.1, (3, 4) -> 4.3))
   val encodedWeightedJson = weightedGraph.toJson
-  println(s"Encoded weighted graph JSON: $encodedWeightedJson")
+  println(s"Encoded weighted graph JSON: $encodedWeightedJson")*/
 }

@@ -1,5 +1,8 @@
 package graphs
 
+import scala.collection.mutable
+import scala.math.Numeric.Implicits._
+
 trait Graph[T] {
   def getVertices(): Set[T]
   def getEdges(): Set[(T, T)]
@@ -15,4 +18,3 @@ trait WeightedGraphTrait[T, W] extends Graph[T] {
   def addEdge(edge: (T, T), weight: W): WeightedGraph[T, W]
   def removeEdge(edge: (T, T)): WeightedGraph[T, W]
 }
-

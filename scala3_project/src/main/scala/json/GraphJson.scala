@@ -13,8 +13,8 @@ object GraphJson {
   implicit def undirectedGraphDecoder[T: JsonDecoder]: JsonDecoder[UndirectedGraph[T]] = DeriveJsonDecoder.gen[UndirectedGraph[T]]
 
   // Implicit encoders and decoders for WeightedGraph
-  implicit def weightedGraphEncoder[T: JsonEncoder, W: JsonEncoder]: JsonEncoder[WeightedGraph[T, W]] = DeriveJsonEncoder.gen[WeightedGraph[T, W]]
-  implicit def weightedGraphDecoder[T: JsonDecoder, W: JsonDecoder]: JsonDecoder[WeightedGraph[T, W]] = DeriveJsonDecoder.gen[WeightedGraph[T, W]]
+  //implicit def weightedGraphEncoder[T: JsonEncoder, W: JsonEncoder]: JsonEncoder[WeightedGraph[T, W]] = DeriveJsonEncoder.gen[WeightedGraph[T, W]]
+  //implicit def weightedGraphDecoder[T: JsonDecoder, W: JsonDecoder]: JsonDecoder[WeightedGraph[T, W]] = DeriveJsonDecoder.gen[WeightedGraph[T, W]]
 
   // Custom encoders and decoders for Set and Map
   implicit def setEncoder[T: JsonEncoder]: JsonEncoder[Set[T]] = JsonEncoder[List[T]].contramap(_.toList)
@@ -31,10 +31,11 @@ object GraphJson {
     jsonString.fromJson[UndirectedGraph[Int]]
   }
 
+  /*
   def decodeJsonToWeightedGraph(jsonString: String): Either[String, WeightedGraph[Int, Double]] = {
     jsonString.fromJson[WeightedGraph[Int, Double]]
   }
-
+*/
 
   
 

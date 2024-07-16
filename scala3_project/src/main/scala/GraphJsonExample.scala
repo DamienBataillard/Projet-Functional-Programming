@@ -28,12 +28,12 @@ object GraphJsonExample extends App {
   // Decode the JSON strings
   val directedGraph = decodeJsonToDirectedGraph(directedGraphJson)
   val undirectedGraph = decodeJsonToUndirectedGraph(undirectedGraphJson)
-  val weightedGraph = decodeJsonToWeightedGraph(weightedGraphJson)
+  //val weightedGraph = decodeJsonToWeightedGraph(weightedGraphJson)
 
   // Print the decoded graphs
   println(s"Directed Graph: $directedGraph")
   println(s"Undirected Graph: $undirectedGraph")
-  println(s"Weighted Graph: $weightedGraph")
+  //println(s"Weighted Graph: $weightedGraph")
 
   directedGraph match {
     case Right(graph) =>
@@ -54,7 +54,7 @@ object GraphJsonExample extends App {
       println(s"BFS starting from vertex 1: ${graph.bfs(1)}")
     case Left(error) => println(s"Failed to decode undirected graph: $error")
   }
-
+/*
   weightedGraph match {
     case Right(graph) =>
       println(s"Vertices: ${graph.getVertices()}")
@@ -63,5 +63,5 @@ object GraphJsonExample extends App {
       println(s"DFS starting from vertex 1: ${graph.dfs(1)}")
       println(s"BFS starting from vertex 1: ${graph.bfs(1)}")
     case Left(error) => println(s"Failed to decode weighted graph: $error")
-  }
+  }*/
 }
