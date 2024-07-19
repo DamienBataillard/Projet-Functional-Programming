@@ -51,4 +51,36 @@ case class DirectedGraph[T](vertices: Set[T], edges: Set[(T, T)]) extends Graph[
     bfsIterative(List(start), Set(start), List())
   }
 
+  // Topological Sorting
+  def topologicalSort(): List[T] = {
+    def dfsTopo(vertex: T, visited: Set[T], stack: List[T]): (List[T], Set[T]) = {
+      if (visited.contains(vertex)) (stack, visited)
+      else {
+        val neighbors = getNeighbors(vertex)
+        val (newStack, newVisited) = neighbors.foldLeft((stack, visited + vertex)) { case ((stk, vis), neighbor) =>
+          val (subStack, subVisited) = dfsTopo(neighbor, vis, stk)
+          (subStack, subVisited)
+        }
+        (vertex :: newStack, newVisited)
+      }
+    }
+    val (stack, _) = vertices.foldLeft((List[T](), Set[T]())) { case ((stk, vis), vertex) =>
+      val (subStack, subVisited) = dfsTopo(vertex, vis, stk)
+      (subStack, subVisited)
+    }
+    stack.reverse
+  }
+
+  // Cycle Detection
+  def hasCycle(): Boolean = {
+    def dfsCycle(vertex: T, visited: Set[T], recStack: Set[T]): Boolean = {
+      if (recStack.contains(vertex)) true
+      else if (visited.contains(vertex)) false
+      else {
+        val neighbors = getNeighbors(vertex)
+        neighbors.exists(neighbor => dfsCycle(neighbor, visited + vertex, recStack + vertex))
+      }
+    }
+    vertices.exists(vertex => dfsCycle(vertex, Set[T](), Set[T]()))
+  }
 }

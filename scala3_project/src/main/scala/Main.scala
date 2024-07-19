@@ -63,6 +63,10 @@ object Main extends App {
   }
 }
 
+  println(directedGraph.hasCycle())
+  println(directedGraph.topologicalSort())
+
+
   /*
 
   println("Directed Graph DOT representation:")
