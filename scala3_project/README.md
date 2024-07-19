@@ -47,12 +47,17 @@ This will execute all the unit tests and display the test results.
 
 ## Code structure
 - `/resources`: Contains .json files reprensenting a directed, undirected and weighted graphs.
+    - `/directedGraph.json`
+    - `/undirectedGraph.json`
+    - `/weightedGraph.json`
 - `/scala`
     - `/graphs`: Contains all files related to graphs and operations.
         - `/Graph.scala`: Contains the graph trait
         - `/DirectedGraph.scala`: Directed Graph case class
         - `/UndirectedGraph.scala`: Undirected case class
         - `/WeightedGraph.scala`: Weighted case class
+        - `/GraphApp.scala`: ZIO application entry point.
+        - `/GraphService.scala`: Graph service implementation for ZIO
     - `/json` 
         - `/GraphJson.scala` : Contains the implicit methods that handle json encoding and decoding
     - `viz` 
@@ -62,6 +67,8 @@ This will execute all the unit tests and display the test results.
     - `DirectedGraphSpec.scala` 
     - `UndirectedGraphSpec.scala` 
     - `WeightedGraphSpec.scala` 
+- `/build.sbt`
+- `/README.MD`
 
 
 
@@ -82,6 +89,10 @@ The JSON encoding/decoding functionality is implemented for directed and undirec
 ### GraphViz Representation
 
 The library includes a method to generate a GraphViz DOT format representation of the graph using the `foldLeft` method. This allows for easy visualization of the graph structure.
+
+### State Management and ZIO Integration
+
+The ZIO 2 application integrates the graph library, using ZIO's powerful concurrency and state management capabilities. State is managed using ZIO's `Ref` for mutable references and `ZLayer` for dependency injection, ensuring a modular and testable application design.
 
 ## Testing
 
