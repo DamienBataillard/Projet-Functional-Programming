@@ -8,7 +8,9 @@ lazy val root = project
     scalaVersion := scala3Version,
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.15" % Test,
-      "dev.zio" %% "zio-json" % "0.2.0-M2"
+      "dev.zio" %% "zio" % "2.0.0",
+      "dev.zio" %% "zio-json" % "0.3.0-RC8", // Mise à jour vers une version stable si disponible
+      "dev.zio" %% "zio-streams" % "2.0.0",
+      "dev.zio" %% "zio-console" % "1.0.0" // Ajout de la dépendance zio-console
     )
   )
-
